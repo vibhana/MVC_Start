@@ -16,7 +16,7 @@ namespace MVC_Start
     {
       BuildWebHost(args).Run();
     }
-
+//test of fork
     public static IWebHost BuildWebHost(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
             .UseStartup<Startup>()
